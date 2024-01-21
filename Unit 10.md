@@ -1,8 +1,8 @@
 1. **Computation of Various Distance Metrics**
-   - **Euclidean Distance**: The most common distance metric, calculated as the square root of the sum of the squared differences between the individual dimensions of two points. \( \text{Euclidean}(x, y) = \sqrt{\sum_{i=1}^{n} (x_i - y_i)^2} \).
-   - **Manhattan Distance**: The sum of the absolute differences of their coordinates. \( \text{Manhattan}(x, y) = \sum_{i=1}^{n} |x_i - y_i| \).
-   - **Minkowski Distance**: A generalization of Euclidean and Manhattan distances. \( \text{Minkowski}(x, y) = (\sum_{i=1}^{n} |x_i - y_i|^p)^{1/p} \), where \( p \) is the order of the norm.
-   - **Cosine Similarity**: Measures the cosine of the angle between two vectors, used as a similarity metric. \( \text{Cosine}(x, y) = \frac{x \cdot y}{\|x\| \|y\|} \), where \( \cdot \) denotes the dot product and \( \|x\| \) is the norm of vector \( x \).
+   - **Euclidean Distance**: The most common distance metric, calculated as the square root of the sum of the squared differences between the individual dimensions of two points. $ \text{Euclidean}(x, y) = \sqrt{\sum_{i=1}^{n} (x_i - y_i)^2} $.
+   - **Manhattan Distance**: The sum of the absolute differences of their coordinates. $ \text{Manhattan}(x, y) = \sum_{i=1}^{n} |x_i - y_i| $.
+   - **Minkowski Distance**: A generalization of Euclidean and Manhattan distances. $ \text{Minkowski}(x, y) = (\sum_{i=1}^{n} |x_i - y_i|^p)^{1/p} $, where $ p $ is the order of the norm.
+   - **Cosine Similarity**: Measures the cosine of the angle between two vectors, used as a similarity metric. $ \text{Cosine}(x, y) = \frac{x \cdot y}{\|x\| \|y\|} $, where $ \cdot $ denotes the dot product and $ \|x\| $ is the norm of vector $ x $.
 
 2. **Concept of Dendrogram**
    - A dendrogram is a tree-like diagram that records the sequences of merges or splits in hierarchical clustering. Each branch represents a cluster and its length represents the degree of similarity (or dissimilarity) between clusters. It provides a visual summary of the clustering process, helping to determine the number of clusters by showing the points at which clusters are merged.
